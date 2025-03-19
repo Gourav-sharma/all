@@ -1,7 +1,7 @@
 name: all
-description: "A new Flutter project."
+description: "A plugin to help in all type development in flutter."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Gourav-sharma/all
 
 environment:
   sdk: ^3.6.2
