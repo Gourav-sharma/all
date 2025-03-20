@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:all/all.dart';
 
 class GlobalContextInitializer extends WidgetsBindingObserver {

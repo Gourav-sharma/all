@@ -13,12 +13,12 @@ class GlobalContextInitializer extends WidgetsBindingObserver {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       WidgetsBinding.instance.removeObserver(this);
       try {
-        if (NavigatorService.navigatorKey.currentState != null) { // Use NavigatorService key
-          AppContext.setContext(NavigatorService.navigatorKey.currentState!.context);
+        if (navigatorKey.currentState != null) { // Use NavigatorService key
+          AppContext.setContext(navigatorKey.currentState!.context);
           contextInitialized.value = true;
         } else {
           WidgetsBinding.instance.addPostFrameCallback((_) {
-            AppContext.setContext(NavigatorService.navigatorKey.currentState!.context);
+            AppContext.setContext(navigatorKey.currentState!.context);
             contextInitialized.value = true;
           });
         }
