@@ -2,7 +2,6 @@
 
 import 'package:all/all.dart';
 
-final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 class AppRouter{
 

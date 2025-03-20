@@ -16,6 +16,9 @@ export 'package:all/service/router_service.dart';
 export 'package:all/ui/detail/detail.dart';
 export 'package:all/ui/home/home.dart';
 
+final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+
+
 class All {
   Future<String?> getPlatformVersion() {
     return AllPlatform.instance.getPlatformVersion();
