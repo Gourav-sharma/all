@@ -1,9 +1,7 @@
 name: all
 description: "A plugin to help in all type development in flutter."
-version: 0.0.2
+version: 0.0.1
 homepage: https://github.com/Gourav-sharma/all
-issue_tracker: https://github.com/Gourav-sharma/all/issues
-repository: https://github.com/Gourav-sharma/all
 
 environment:
   sdk: ^3.6.2

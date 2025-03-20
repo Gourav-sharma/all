@@ -12,9 +12,7 @@ export 'package:all/global_context_initializer.dart';
 export 'package:all/service/navigator_service.dart';
 export 'package:all/extensions/navigation_extension.dart';
 export 'package:go_router/go_router.dart';
-export 'package:all/service/router_service.dart';
-export 'package:all/ui/detail/detail.dart';
-export 'package:all/ui/home/home.dart';
+export 'package:all/';
 
 class All {
   Future<String?> getPlatformVersion() {
