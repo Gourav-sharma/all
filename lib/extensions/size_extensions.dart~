@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../app_context.dart';
 
 extension SizeExtensions on num {
-  double get sP {
+  double get sp {
     try {
       return MediaQuery.of(AppContext.context).textScaler.scale(toDouble());
     } catch (e) {

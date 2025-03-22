@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
                       child: Center(
                         child: Container(
                           width: 60.sw,
-                          height: 150.sp,
+                          height: 150.sP,
                           color: Colors.white,
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -31,13 +31,13 @@ class Home extends StatelessWidget {
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text('Want to go to Second Page?',
-                                  style:TextStyle(fontSize: 15.sp,
+                                  style:TextStyle(fontSize: 15.sP,
                                     color: Colors.black,
                                     decoration: TextDecoration.none,
                                   ),),
                               ),
                               SizedBox(
-                                width: 100.sp,
+                                width: 100.sP,
                                 child: ElevatedButton(
                                   child: Text('Yes'),
                                   onPressed: () {
@@ -63,7 +63,7 @@ class Home extends StatelessWidget {
                 },
                 child: Text('Go to Second Page',
                     style: TextStyle(
-                      fontSize: 15.sp,
+                      fontSize: 15.sP,
                     )),
               ),
             ),
