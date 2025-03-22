@@ -16,14 +16,14 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
-              width: 80.sw,
+              width: 80.dw,
               child: ElevatedButton(
                 onPressed: () {
                   All.showCustomDialog(
                       child: Center(
                         child: Container(
-                          width: 60.sw,
-                          height: 150.sP,
+                          width: 60.dw,
+                          height: 150.dsp,
                           color: Colors.white,
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -31,13 +31,13 @@ class Home extends StatelessWidget {
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text('Want to go to Second Page?',
-                                  style:TextStyle(fontSize: 15.sP,
+                                  style:TextStyle(fontSize: 15.dsp,
                                     color: Colors.black,
                                     decoration: TextDecoration.none,
                                   ),),
                               ),
                               SizedBox(
-                                width: 100.sP,
+                                width: 100.fw,
                                 child: ElevatedButton(
                                   child: Text('Yes'),
                                   onPressed: () {
@@ -63,7 +63,7 @@ class Home extends StatelessWidget {
                 },
                 child: Text('Go to Second Page',
                     style: TextStyle(
-                      fontSize: 15.sP,
+                      fontSize: 15.dsp,
                     )),
               ),
             ),

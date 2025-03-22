@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../app_context.dart';
 
 extension SizeExtensions on num {
-  double get sP {
+  double get dsp {
     try {
       return MediaQuery.of(AppContext.context).textScaler.scale(toDouble());
     } catch (e) {
@@ -10,7 +10,7 @@ extension SizeExtensions on num {
     }
   }
 
-  double get sw {
+  double get dw {
     try {
       return this * MediaQuery.of(AppContext.context).size.width / 100;
     } catch (e) {
@@ -21,7 +21,7 @@ extension SizeExtensions on num {
     }
   }
 
-  double get sh {
+  double get dh {
     try {
       return this * MediaQuery.of(AppContext.context).size.height / 100;
     } catch (e) {
@@ -32,11 +32,11 @@ extension SizeExtensions on num {
     }
   }
 
-  double get w {
+  double get fw {
     return toDouble();
   }
 
-  double get h {
+  double get fh {
     return toDouble();
   }
 }
